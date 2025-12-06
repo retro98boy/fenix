@@ -15,7 +15,7 @@ source config/functions/functions
 ## Try to update Fenix
 check_update() {
 	cd $ROOT
-	update_git_repo "$PWD" ${FENIX_BRANCH:- master}
+	# update_git_repo "$PWD" ${FENIX_BRANCH:- aoc-65t33z}
 }
 
 ## Display parameters
